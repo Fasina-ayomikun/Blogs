@@ -3,6 +3,7 @@ title: "Don't Declare Javascript Variable Without Reading This!"
 datePublished: Sun Apr 16 2023 08:21:45 GMT+0000 (Coordinated Universal Time)
 cuid: clgj51v5u000709mm1jnx3ict
 slug: dont-declare-javascript-variable-without-reading-this
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1681633475559/76b1e305-8afa-4b28-8319-e3d9487e0455.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1681554360634/41cbf9b1-bbbe-4004-8750-5e0a0bb837cd.jpeg
 tags: variables, hosting, javascript, variable-declaration
 
