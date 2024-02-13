@@ -1,6 +1,6 @@
 ---
 title: "Promises in JavaScript"
-seoTitle: "Ja"
+seoTitle: "JavaScript Promise"
 datePublished: Tue Feb 13 2024 11:07:13 GMT+0000 (Coordinated Universal Time)
 cuid: clsk9drg4000c09l619jaevd9
 slug: promises-in-javascript
