@@ -3,6 +3,7 @@ title: "Mastering 'this' in JavaScript: A Comprehensive Guide"
 datePublished: Wed Oct 18 2023 16:43:43 GMT+0000 (Coordinated Universal Time)
 cuid: clnvzfzjv000a0ai976bt8y4h
 slug: mastering-this-in-javascript-a-comprehensive-guide
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/npxXWgQ33ZQ/upload/217bae94ecbe6df64bf5c4f9b421d161.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1697644882992/d9dec499-6dca-4ae3-92c2-79854cef5444.jpeg
 tags: programming-blogs, javascript, web-development, coding, this-keyword
 
