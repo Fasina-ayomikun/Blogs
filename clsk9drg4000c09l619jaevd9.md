@@ -4,6 +4,7 @@ seoTitle: "JavaScript Promise"
 datePublished: Tue Feb 13 2024 11:07:13 GMT+0000 (Coordinated Universal Time)
 cuid: clsk9drg4000c09l619jaevd9
 slug: promises-in-javascript
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707949366657/66809e8f-1a7b-495c-ac00-4d0b119a2a31.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1707822187452/b62caf23-9a14-4ee3-9358-44493e194ced.png
 tags: javascript, coding, codingnewbies
 
