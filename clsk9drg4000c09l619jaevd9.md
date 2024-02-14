@@ -28,9 +28,9 @@ Now, in the second scenario, the son decides to multitask: while the washing mac
 
 So just like the frustrated son has more time to play video games in the second scenario unlike the first, asynchronous operation takes a shorter time to execute compared to synchronous operation.
 
-## So why do we need Promises
+## So why do we need Promises?
 
-With the introduction of asynchronous programming, Promises became a vital tool for managing such operations effectively. As the name suggests, Promises are a way for the browser to assure us that it will fulfill a certain operation. When a Promise is created, it returns an object which is a representation of the completion or failure of that operation.
+With the introduction of asynchronous programming, Promises became a vital tool for managing such operations effectively. As the name suggests, Promises are a way for the browser to assure us that it will fulfil a certain operation. When a Promise is created, it returns an object which is a representation of the completion or failure of that operation.
 
 Just like when our uncles promise us money, which they could give us or pull the 'I will give you later' card, the browser could give us the data we asked for or return an error if it is unable to get the data.
 
@@ -76,7 +76,7 @@ Looking at the example above let's assume that the `success` variable indicates 
 
 Since we understand how to create a Promise, let's explore how to handle it. Promises can be managed using various methods, one of which involves utilizing the `.then()` and `.catch()` functions.
 
-* `.then` : This function is used to handle the fulfillment or rejection of a Promise. It takes two optional callback functions as arguments:
+* `.then` : This function is used to handle the fulfilment or rejection of a Promise. It takes two optional callback functions as arguments:
     
 
 ```javascript
@@ -138,7 +138,7 @@ newPromise.then(onFulfilled)
   });
 ```
 
-In this example, the `.finally()` method is utilized to define a block of code that executes after the Promise chain completes, irrespective of whether the Promise is resolved or rejected. This ensures that the specified code is always executed, offering a convenient way to handle cleanup tasks or finalize operations.
+In this example, the `.finally()` method defines a block of code that executes after the Promise chain completes, irrespective of whether the Promise is resolved or rejected. This ensures that the specified code is always executed, offering a convenient way to handle cleanup tasks or finalize operations.
 
 So, whether you receive money from your uncle or not, you still have to wash the plates he used for eating.
 
@@ -202,11 +202,11 @@ In this example, promises are utilized to represent each step in the process of 
 
 Essentially, when a promise yields its result, it returns another promise, and this pattern continues. However, it's important to note that the chaining breaks wherever an error occurs. For instance, if `promiseTwo` rejects, the next `.then()` will not be executed.
 
-Feel free to experiment with this code in your code editor to gain a better understanding of its behavior.
+Feel free to experiment with this code in your code editor to gain a better understanding of its behaviour.
 
 ## Methods in Promises
 
-In JavaScript, the built-in `Promise` feature is utilized for handling promises, offering a variety of methods to effectively manage them. We will explore several of these methods that are commonly encountered in everyday coding tasks, assuming you code regularly.
+In JavaScript, the built-in `Promise` feature is utilized for handling promises, offering a variety of methods to effectively manage them. We will explore several of these methods that are commonly encountered in everyday coding tasks, assuming your code regularly.
 
 * `Promise.all()` : This is a static method on the `Promise` object in JavaScript. It accepts an array of Promises and returns a single Promise that resolves only when each Promise in the array resolves.
     
@@ -245,11 +245,11 @@ All promises resolved:
 
 In this example, `Promise.all()` returns a single Promise which is stored in the `allPromises` variable. This Promise is then handled using the `.then()` function. When the Promise is resolved, the `.then()` function receives an array containing the resolved values of each Promise in the array.
 
-If any of the Promises in the array rejects, the `allPromises` Promise will fail and return an error. You can test this by changing one of the `resolve` functions in any of the Promises to `reject`.
+If any of the Promises in the array is rejected, the `allPromises` Promise will fail and return an error. You can test this by changing one of the `resolve` functions in any of the Promises to `reject`.
 
-Feel free to try this out in your code editor and share the output in the comments below..
+Feel free to try this out in your code editor and share the output in the comments below.
 
-* `Promise.allSettled()` : This function is similar to the `Promise.all()` function, but with a key difference. Unlike `Promise.all()`, which fails immediately if any Promise in the array rejects, `Promise.allSettled()` returns the status of each Promise, whether fulfilled or rejected, in the `.then()` function.
+* `Promise.allSettled()` : This function is similar to the `Promise.all()` function but with a key difference. Unlike `Promise.all()`, which fails immediately if any Promise in the array rejects, `Promise.allSettled()` returns the status of each Promise, whether fulfilled or rejected, in the `.then()` function.
     
     Let's examine how it works with an example:
     
@@ -289,11 +289,11 @@ allPromises.then((values) => {
 // ]
 ```
 
-In this example, even though the third Promise is rejected, `Promise.allSettled()` still returns all the values in the `.then()` function, each with its respective status (`fulfilled` or `rejected`). This behavior is useful when you want to handle the results of all Promises, regardless of whether they succeed or fail.
+In this example, even though the third Promise is rejected, `Promise.allSettled()` still returns all the values in the `.then()` function, each with its respective status (`fulfilled` or `rejected`). This behaviour is useful when you want to handle the results of all Promises, regardless of whether they succeed or fail.
 
 It's worth noting that `Promise.allSettled()` does not require a `.catch()` function, as it always resolves, providing the status of each Promise in the array.
 
-Feel free to experiment with this code to explore its behavior further.
+Feel free to experiment with this code to explore its behaviour further.
 
 * `Promise.race()` : This function is a method on the Promise object that accepts an array of Promises and returns a single Promise. The value or error returned by this single Promise is determined by the first Promise in the array to resolve or reject. In other words, the fastest Promise determines the outcome for all Promises in the array.
     
@@ -330,7 +330,7 @@ Feel free to experiment with this code to explore its behavior further.
     
     Unlike `Promise.race()`, which doesn't consider whether the first promise to settle resolves or rejects, `Promise.any()` only deals with the promise that resolves first. If all the promises in the array reject, an AggregateError is returned.
     
-    Let's examine this behavior with an example:
+    Let's examine this behaviour with an example:
     
 
 ```javascript
